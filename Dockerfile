@@ -18,7 +18,7 @@ RUN mkdir gateway && cd gateway && \
 
     
 # Copy our config so that the gateway will use it
-COPY conf.yaml gateway/root/conf.yaml
+COPY inputs/conf.yaml gateway/root/conf.yaml
 COPY start.sh /app
 COPY env.list /app
 # Copy source code
